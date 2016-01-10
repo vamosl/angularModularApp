@@ -10,6 +10,20 @@
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
+# Ignore Node & Bower
+###################
+assistant/node_modules
+assistant/bower_components
+
+# mongo db
+###################
+#Don't commit Mongo Database files
+*.lock
+*.0
+*.1
+*.ns
+journal
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
