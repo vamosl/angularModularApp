@@ -12,8 +12,8 @@
 
 # Ignore Node & Bower
 ###################
-assistant/node_modules
-assistant/bower_components
+node_modules
+bower_components
 
 # mongo db
 ###################
